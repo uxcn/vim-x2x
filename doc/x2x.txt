@@ -1,0 +1,47 @@
+*x2x.txt*  Convert between radixes.
+
+Author:  Jason Schulz <https://github.com/uxcn>
+License: Same terms as Vim itself (see |license|)
+
+Functions to convert between radixes.
+
+Visual and Normal mappings can be also configured using the <Plug> mappings.
+
+                                                *Bin()*
+Bin({expr})              Convert {expr} to binary.
+
+                                                *Oct()*
+Oct({expr})              Convert {expr} to octal.
+
+                                                *Dec()*
+Dec({expr})              Convert {expr} to decimal.
+
+                                                *Hex()*
+Hex({expr})              Convert {expr} to hexadecimal.
+
+                                                *v_x2b*
+{Visual}<Plug>x2b        Convert highlighted to binary.
+
+                                                *x2b*
+<Plug>x2b{motion}        Convert value that {motion} moves over to binary.
+
+                                                *v_x2o*
+{Visual}<Plug>x2o        Convert highlighted to octal.
+
+                                                *x2o*
+<Plug>x2o{motion}        Convert value that {motion} moves over to octal.
+
+                                                *v_x2d*
+{Visual}<Plug>x2d        Convert highlighted to decimal.
+
+                                                *x2d*
+<Plug>x2d{motion}        Convert value that {motion} moves over to decimal.
+
+                                                *v_x2h*
+{Visual}<Plug>x2h        Convert highlighted to hexadecimal.
+
+                                                *x2h*
+<Plug>x2h{motion}        Convert value that {motion} moves over to hexadecimal.
+
+ 
+  vim:ft=help:et:tw=80
